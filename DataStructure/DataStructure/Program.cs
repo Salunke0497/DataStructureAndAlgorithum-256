@@ -10,8 +10,16 @@ namespace DataStructure
     {
         static void Main(string[] args)
         {
-           BubbleSort sort = new BubbleSort();
+            Console.WriteLine("BubbleSort");
+            BubbleSort sort = new BubbleSort();
             sort.DisplayBubbleSort();
+
+            Console.WriteLine("=================================================");
+            Console.WriteLine("=================================================");
+
+            Console.WriteLine("InsertionSort");
+            InserSort inserSort = new InserSort();
+            inserSort.DisplayInsertionSort();
             Console.ReadLine();
         }
     }
